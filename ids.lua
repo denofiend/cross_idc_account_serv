@@ -1,36 +1,15 @@
-function init()
-    mysql = require "resty.mysql"
-    db, err = mysql:new()
-    if not db then
-        ngx.say("failed to instantiate mysql: ", err)
-        return
-    end
-
-    db:set_timeout(1000) -- 1 sec
-
-    --[[ mul --]]
-
-    local ok, err, errno, sqlstate = db:connect{
-        host = "10.100.15.6",
-        port = 3306,
-        database = "mx_id",
-        user = "mx_id",
-        password = "mx_id",
-        max_packet_size = 1024 * 1024 
-    }
-
-    if not ok then
-        ngx.say("failed to connect: ", err, ": ", errno, " ", sqlstate)
-        return
-    end
-
-    --ngx.say("connected to mysql.")
-end
-
-
+--
 -- get nextIdSegment
 function get_next_id_segment(region)
-    init()
+
+    local options = {}
+    options['host'] = "10.100.15.6"
+    options['port'] = 3306
+    options['database'] = "user_api_local"
+    options['user'] = "user_api_local"
+    options['password'] = "user_api_local"
+    options['max_packet_size'] = 1024 * 1024 
+    local res_obj = initDb(options)
 
     --insert
     local res, err, errno, sqlstate =
