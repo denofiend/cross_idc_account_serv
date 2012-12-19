@@ -5,9 +5,9 @@ function get_next_id_segment(region)
     local options = {}
     options['host'] = "10.100.15.6"
     options['port'] = 3306
-    options['database'] = "user_api_local"
-    options['user'] = "user_api_local"
-    options['password'] = "user_api_local"
+    options['database'] = "mx_id"
+    options['user'] = "mx_id"
+    options['password'] = "mx_id"
     options['max_packet_size'] = 1024 * 1024 
     local res_obj = initDb(options)
 
