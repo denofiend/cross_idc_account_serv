@@ -1,3 +1,4 @@
+
 --[beg_id, end_id]
 --[bak_beg_id, bak_end_id]
 --
@@ -133,3 +134,4 @@ end
 local id = get_next_id()
 local cjson = require "cjson"
 ngx.say(cjson.encode(id))
+

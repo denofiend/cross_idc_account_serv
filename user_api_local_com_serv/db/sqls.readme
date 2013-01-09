@@ -1,0 +1,39 @@
+
+
+create database mx_u_loc_com;
+
+CREATE TABLE `base_user_info` (
+		`user_id` int(11) NOT NULL,
+		`account` varchar(255) NOT NULL,
+		`password` char(64) DEFAULT NULL,
+		`nickname` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+		`gender` tinyint(4) DEFAULT '0',
+		`status` tinyint(4) DEFAULT '2',
+		`ip` varchar(50) DEFAULT NULL,
+		`register_time` char(10) DEFAULT NULL,
+		`update_time` char(10) DEFAULT NULL,
+		`language` char(50) DEFAULT NULL,
+		`from` char(20) DEFAULT NULL,
+		`email` varchar(255) DEFAULT NULL,
+		`mobile` varchar(255) DEFAULT NULL,
+		`country_code` int(11) DEFAULT NULL,
+		PRIMARY KEY (`user_id`),
+		UNIQUE KEY `account` (`account`),
+		UNIQUE KEY `nickname` (`nickname`),
+		UNIQUE KEY `email` (`email`),
+		UNIQUE KEY `mobile` (`mobile`,`country_code`),
+		KEY `register` (`register_time`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+	CREATE TABLE `transaction_table` (
+			`region_id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`user_id` bigint(20) NOT NULL,
+			`type` varchar(15) DEFAULT NULL,
+			`json` varchar(500) DEFAULT NULL,
+			`status` int(2) NOT NULL,
+			PRIMARY KEY (`region_id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8 
+
+	grant select, insert, update, delete on mx_u_loc_com.* to mx_u_loc_com@'%';
+	grant all on mx_ids.* to mx_u_loc_com@"%" identified by 'mx_u_loc_com';
+
