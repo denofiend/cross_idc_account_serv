@@ -1,6 +1,6 @@
 --
 -- get nextIdSegment
-function get_next_id_segment(region)
+function get_next_id_segment(region, segment)
 
     local options = {}
     options['host'] = "10.100.15.7"
@@ -10,6 +10,14 @@ function get_next_id_segment(region)
     options['password'] = "mx_ids"
     options['max_packet_size'] = 1024 * 1024 
     local res_obj = initDb(options)
+
+
+	local res,err,errno,sqlstate=db:query("SET @@auto_increment_increment="..segment)
+
+	if not res then
+        ngx.say("bad result: ", err, ": ", errno, ": ", sqlstate, ".")
+        return
+    end
 
     --insert
     local res, err, errno, sqlstate =
@@ -44,8 +52,23 @@ function get_next_id_segment(region)
 
     local cjson = require "cjson"
     ngx.say(cjson.encode(res))
+
+	local ok, err = db:set_keepalive(0, 100)
+	if not ok then
+		ngx.say("failed to set keepalive: ", err)
+		return
+	end
+
+	-- or just close the connection right away:
+    -- local ok, err = db:close()
+	--                         -- if not ok then
+	--                                     --     ngx.say("failed to close: ", err)
+	--                                                 --     return
+	--                                                             -- end
+	--                                                                     ';
 end
 
 
-get_next_id_segment('IDC5')
+segment=10
+get_next_id_segment('IDC5', segment)
 
