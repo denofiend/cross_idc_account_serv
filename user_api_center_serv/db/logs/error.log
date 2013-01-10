@@ -1,0 +1,237 @@
+2013/01/10 14:58:45 [emerg] 15088#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_center_serv/db/conf/user_api_local.conf" failed (2: No such file or directory) in /data/denofiend/workspace/git/openresty_lua_app/user_api_center_serv/db/conf/nginx.conf:14
+2013/01/10 14:58:45 [emerg] 15089#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_center_serv/db/conf/user_api_local.conf" failed (2: No such file or directory) in /data/denofiend/workspace/git/openresty_lua_app/user_api_center_serv/db/conf/nginx.conf:14
+2013/01/10 14:59:02 [debug] 15094#0: mysql transaction
+2013/01/10 14:59:02 [debug] 15094#0: mysql transaction
+2013/01/10 14:59:02 [debug] 15094#0: mysql transaction
+2013/01/10 14:59:02 [debug] 15094#0: mysql merge srv
+2013/01/10 14:59:02 [debug] 15094#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15094#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15094#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15094#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15094#0: mysql merge loc
+2013/01/10 14:59:02 [notice] 15094#0: signal process started
+2013/01/10 14:59:02 [error] 15094#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_center_serv/db/logs/nginx.pid" failed (2: No such file or directory)
+2013/01/10 14:59:02 [debug] 15095#0: mysql transaction
+2013/01/10 14:59:02 [debug] 15095#0: mysql transaction
+2013/01/10 14:59:02 [debug] 15095#0: mysql transaction
+2013/01/10 14:59:02 [debug] 15095#0: mysql merge srv
+2013/01/10 14:59:02 [debug] 15095#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15095#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15095#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15095#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15095#0: mysql merge loc
+2013/01/10 14:59:02 [debug] 15095#0: bind() 0.0.0.0:3307 #6 
+2013/01/10 14:59:02 [notice] 15095#0: using the "epoll" event method
+2013/01/10 14:59:02 [debug] 15095#0: counter: 00002B7EFE20C080, 1
+2013/01/10 14:59:02 [notice] 15095#0: nginx/1.2.3
+2013/01/10 14:59:02 [notice] 15095#0: built by gcc 4.1.2 20080704 (Red Hat 4.1.2-48)
+2013/01/10 14:59:02 [notice] 15095#0: OS: Linux 2.6.18-194.el5
+2013/01/10 14:59:02 [notice] 15095#0: getrlimit(RLIMIT_NOFILE): 100000:100000
+2013/01/10 14:59:02 [debug] 15096#0: write: 7, 00007FFF7BD11860, 6, 0
+2013/01/10 14:59:02 [debug] 15096#0: setproctitle: "nginx: master process /usr/local/nginx/sbin/nginx -p /data/denofiend/workspace/git/openresty_lua_app/user_api_center_serv/db/"
+2013/01/10 14:59:02 [notice] 15096#0: start worker processes
+2013/01/10 14:59:02 [debug] 15096#0: channel 3:7
+2013/01/10 14:59:02 [notice] 15097#0: sched_setaffinity(0x0000000000000002)
+2013/01/10 14:59:02 [debug] 15097#0: malloc: 0000000002F45A20:6144
+2013/01/10 14:59:02 [debug] 15097#0: malloc: 00002B7EFE914010:196608
+2013/01/10 14:59:02 [debug] 15097#0: malloc: 0000000002F69160:106496
+2013/01/10 14:59:02 [debug] 15097#0: malloc: 0000000002F83170:106496
+2013/01/10 14:59:02 [debug] 15097#0: epoll add event: fd:6 op:1 ev:00000001
+2013/01/10 14:59:02 [debug] 15097#0: epoll add event: fd:7 op:1 ev:00000001
+2013/01/10 14:59:02 [debug] 15097#0: setproctitle: "nginx: worker process"
+2013/01/10 14:59:02 [debug] 15097#0: worker cycle
+2013/01/10 14:59:02 [debug] 15097#0: epoll timer: -1
+2013/01/10 14:59:02 [notice] 15096#0: start worker process 15097
+2013/01/10 14:59:02 [notice] 15096#0: start procs processes
+2013/01/10 14:59:02 [debug] 15096#0: sigsuspend
+2013/01/10 14:59:06 [debug] 15100#0: mysql transaction
+2013/01/10 14:59:06 [debug] 15100#0: mysql transaction
+2013/01/10 14:59:06 [debug] 15100#0: mysql transaction
+2013/01/10 14:59:06 [debug] 15100#0: mysql merge srv
+2013/01/10 14:59:06 [debug] 15100#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15100#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15100#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15100#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15100#0: mysql merge loc
+2013/01/10 14:59:06 [notice] 15100#0: signal process started
+2013/01/10 14:59:06 [debug] 15101#0: mysql transaction
+2013/01/10 14:59:06 [debug] 15101#0: mysql transaction
+2013/01/10 14:59:06 [debug] 15101#0: mysql transaction
+2013/01/10 14:59:06 [debug] 15101#0: mysql merge srv
+2013/01/10 14:59:06 [debug] 15101#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15101#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15101#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15101#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15101#0: mysql merge loc
+2013/01/10 14:59:06 [debug] 15101#0: bind() 0.0.0.0:3307 #6 
+2013/01/10 14:59:06 [emerg] 15101#0: bind() to 0.0.0.0:3307 failed (98: Address already in use)
+2013/01/10 14:59:06 [notice] 15101#0: try again to bind() after 500ms
+2013/01/10 14:59:06 [notice] 15096#0: signal 15 (SIGTERM) received, exiting
+2013/01/10 14:59:06 [debug] 15096#0: wake up, sigio 0
+2013/01/10 14:59:06 [debug] 15096#0: child: 0 15097 e:0 t:0 d:0 r:1 j:0
+2013/01/10 14:59:06 [debug] 15096#0: termination cycle: 50
+2013/01/10 14:59:06 [debug] 15096#0: sigsuspend
+2013/01/10 14:59:06 [debug] 15097#0: epoll: fd:7 ev:0001 d:00002B7EFE9140D0
+2013/01/10 14:59:06 [debug] 15097#0: channel handler
+2013/01/10 14:59:06 [debug] 15097#0: channel: 32
+2013/01/10 14:59:06 [debug] 15097#0: channel command: 4
+2013/01/10 14:59:06 [debug] 15097#0: channel: -2
+2013/01/10 14:59:06 [debug] 15097#0: timer delta: 3348
+2013/01/10 14:59:06 [debug] 15097#0: posted events 0000000000000000
+2013/01/10 14:59:06 [notice] 15097#0: exiting
+2013/01/10 14:59:06 [debug] 15097#0: flush files
+2013/01/10 14:59:06 [debug] 15097#0: run cleanup: 0000000002F58648
+2013/01/10 14:59:06 [debug] 15097#0: cleanup resolver
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F68010
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F5DF00
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F4FEB0
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F4ADE0
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F49D20
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F48C60
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F43E90
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F39790, unused: 0
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F4BEA0, unused: 0
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F51ED0, unused: 0
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F55EE0, unused: 0
+2013/01/10 14:59:06 [debug] 15097#0: free: 0000000002F59EF0, unused: 10632
+2013/01/10 14:59:06 [notice] 15097#0: exit
+2013/01/10 14:59:06 [notice] 15096#0: signal 17 (SIGCHLD) received
+2013/01/10 14:59:06 [notice] 15096#0: worker process 15097 exited with code 0
+2013/01/10 14:59:06 [debug] 15096#0: shmtx forced unlock
+2013/01/10 14:59:06 [debug] 15096#0: wake up, sigio 3
+2013/01/10 14:59:06 [debug] 15096#0: reap children
+2013/01/10 14:59:06 [debug] 15096#0: child: 0 15097 e:1 t:1 d:0 r:1 j:0
+2013/01/10 14:59:06 [notice] 15096#0: exit
+2013/01/10 14:59:06 [debug] 15096#0: close listening 0.0.0.0:3307 #6 
+2013/01/10 14:59:06 [debug] 15096#0: run cleanup: 0000000002F58648
+2013/01/10 14:59:06 [debug] 15096#0: cleanup resolver
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F68010
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F5DF00
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F4FEB0
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F4ADE0
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F49D20
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F48C60
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F43E90
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F39790, unused: 0
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F4BEA0, unused: 0
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F51ED0, unused: 0
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F55EE0, unused: 0
+2013/01/10 14:59:06 [debug] 15096#0: free: 0000000002F59EF0, unused: 10645
+2013/01/10 14:59:06 [debug] 15101#0: bind() 0.0.0.0:3307 #6 
+2013/01/10 14:59:06 [notice] 15101#0: using the "epoll" event method
+2013/01/10 14:59:06 [debug] 15101#0: counter: 00002B7665384080, 1
+2013/01/10 14:59:06 [notice] 15101#0: nginx/1.2.3
+2013/01/10 14:59:06 [notice] 15101#0: built by gcc 4.1.2 20080704 (Red Hat 4.1.2-48)
+2013/01/10 14:59:06 [notice] 15101#0: OS: Linux 2.6.18-194.el5
+2013/01/10 14:59:06 [notice] 15101#0: getrlimit(RLIMIT_NOFILE): 100000:100000
+2013/01/10 14:59:06 [debug] 15102#0: write: 7, 00007FFF57276450, 6, 0
+2013/01/10 14:59:06 [debug] 15102#0: setproctitle: "nginx: master process /usr/local/nginx/sbin/nginx -p /data/denofiend/workspace/git/openresty_lua_app/user_api_center_serv/db/"
+2013/01/10 14:59:06 [notice] 15102#0: start worker processes
+2013/01/10 14:59:06 [debug] 15102#0: channel 3:7
+2013/01/10 14:59:06 [notice] 15103#0: sched_setaffinity(0x0000000000000002)
+2013/01/10 14:59:06 [debug] 15103#0: malloc: 0000000019F52A20:6144
+2013/01/10 14:59:06 [debug] 15103#0: malloc: 00002B7665A8C010:196608
+2013/01/10 14:59:06 [debug] 15103#0: malloc: 0000000019F76160:106496
+2013/01/10 14:59:06 [debug] 15103#0: malloc: 0000000019F90170:106496
+2013/01/10 14:59:06 [debug] 15103#0: epoll add event: fd:6 op:1 ev:00000001
+2013/01/10 14:59:06 [debug] 15103#0: epoll add event: fd:7 op:1 ev:00000001
+2013/01/10 14:59:06 [debug] 15103#0: setproctitle: "nginx: worker process"
+2013/01/10 14:59:06 [debug] 15103#0: worker cycle
+2013/01/10 14:59:06 [debug] 15103#0: epoll timer: -1
+2013/01/10 14:59:06 [notice] 15102#0: start worker process 15103
+2013/01/10 14:59:06 [notice] 15102#0: start procs processes
+2013/01/10 14:59:06 [debug] 15102#0: sigsuspend
+2013/01/10 14:59:08 [debug] 15106#0: mysql transaction
+2013/01/10 14:59:08 [debug] 15106#0: mysql transaction
+2013/01/10 14:59:08 [debug] 15106#0: mysql transaction
+2013/01/10 14:59:08 [debug] 15106#0: mysql merge srv
+2013/01/10 14:59:08 [debug] 15106#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15106#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15106#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15106#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15106#0: mysql merge loc
+2013/01/10 14:59:08 [notice] 15106#0: signal process started
+2013/01/10 14:59:08 [notice] 15102#0: signal 15 (SIGTERM) received, exiting
+2013/01/10 14:59:08 [debug] 15102#0: wake up, sigio 0
+2013/01/10 14:59:08 [debug] 15102#0: child: 0 15103 e:0 t:0 d:0 r:1 j:0
+2013/01/10 14:59:08 [debug] 15102#0: termination cycle: 50
+2013/01/10 14:59:08 [debug] 15102#0: sigsuspend
+2013/01/10 14:59:08 [debug] 15103#0: epoll: fd:7 ev:0001 d:00002B7665A8C0D0
+2013/01/10 14:59:08 [debug] 15103#0: channel handler
+2013/01/10 14:59:08 [debug] 15103#0: channel: 32
+2013/01/10 14:59:08 [debug] 15103#0: channel command: 4
+2013/01/10 14:59:08 [debug] 15103#0: channel: -2
+2013/01/10 14:59:08 [debug] 15103#0: timer delta: 2531
+2013/01/10 14:59:08 [debug] 15103#0: posted events 0000000000000000
+2013/01/10 14:59:08 [notice] 15103#0: exiting
+2013/01/10 14:59:08 [debug] 15103#0: flush files
+2013/01/10 14:59:08 [debug] 15103#0: run cleanup: 0000000019F65648
+2013/01/10 14:59:08 [debug] 15103#0: cleanup resolver
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F75010
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F6AF00
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F5CEB0
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F57DE0
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F56D20
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F55C60
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F50E90
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F46790, unused: 0
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F58EA0, unused: 0
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F5EED0, unused: 0
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F62EE0, unused: 0
+2013/01/10 14:59:08 [debug] 15103#0: free: 0000000019F66EF0, unused: 10632
+2013/01/10 14:59:08 [notice] 15103#0: exit
+2013/01/10 14:59:08 [notice] 15102#0: signal 17 (SIGCHLD) received
+2013/01/10 14:59:08 [notice] 15102#0: worker process 15103 exited with code 0
+2013/01/10 14:59:08 [debug] 15102#0: shmtx forced unlock
+2013/01/10 14:59:08 [debug] 15102#0: wake up, sigio 3
+2013/01/10 14:59:08 [debug] 15102#0: reap children
+2013/01/10 14:59:08 [debug] 15102#0: child: 0 15103 e:1 t:1 d:0 r:1 j:0
+2013/01/10 14:59:08 [notice] 15102#0: exit
+2013/01/10 14:59:08 [debug] 15102#0: close listening 0.0.0.0:3307 #6 
+2013/01/10 14:59:08 [debug] 15102#0: run cleanup: 0000000019F65648
+2013/01/10 14:59:08 [debug] 15102#0: cleanup resolver
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F75010
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F6AF00
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F5CEB0
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F57DE0
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F56D20
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F55C60
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F50E90
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F46790, unused: 0
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F58EA0, unused: 0
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F5EED0, unused: 0
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F62EE0, unused: 0
+2013/01/10 14:59:08 [debug] 15102#0: free: 0000000019F66EF0, unused: 10645
+2013/01/10 14:59:08 [debug] 15107#0: mysql transaction
+2013/01/10 14:59:08 [debug] 15107#0: mysql transaction
+2013/01/10 14:59:08 [debug] 15107#0: mysql transaction
+2013/01/10 14:59:08 [debug] 15107#0: mysql merge srv
+2013/01/10 14:59:08 [debug] 15107#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15107#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15107#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15107#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15107#0: mysql merge loc
+2013/01/10 14:59:08 [debug] 15107#0: bind() 0.0.0.0:3307 #6 
+2013/01/10 14:59:08 [notice] 15107#0: using the "epoll" event method
+2013/01/10 14:59:08 [debug] 15107#0: counter: 00002B7725F80080, 1
+2013/01/10 14:59:08 [notice] 15107#0: nginx/1.2.3
+2013/01/10 14:59:08 [notice] 15107#0: built by gcc 4.1.2 20080704 (Red Hat 4.1.2-48)
+2013/01/10 14:59:08 [notice] 15107#0: OS: Linux 2.6.18-194.el5
+2013/01/10 14:59:08 [notice] 15107#0: getrlimit(RLIMIT_NOFILE): 100000:100000
+2013/01/10 14:59:08 [debug] 15108#0: write: 7, 00007FFF735FF150, 6, 0
+2013/01/10 14:59:08 [debug] 15108#0: setproctitle: "nginx: master process /usr/local/nginx/sbin/nginx -p /data/denofiend/workspace/git/openresty_lua_app/user_api_center_serv/db/"
+2013/01/10 14:59:08 [notice] 15108#0: start worker processes
+2013/01/10 14:59:08 [debug] 15108#0: channel 3:7
+2013/01/10 14:59:08 [notice] 15110#0: sched_setaffinity(0x0000000000000002)
+2013/01/10 14:59:08 [debug] 15110#0: malloc: 000000001EB2DA20:6144
+2013/01/10 14:59:08 [debug] 15110#0: malloc: 00002B7726688010:196608
+2013/01/10 14:59:08 [debug] 15110#0: malloc: 000000001EB51160:106496
+2013/01/10 14:59:08 [debug] 15110#0: malloc: 000000001EB6B170:106496
+2013/01/10 14:59:08 [debug] 15110#0: epoll add event: fd:6 op:1 ev:00000001
+2013/01/10 14:59:08 [debug] 15110#0: epoll add event: fd:7 op:1 ev:00000001
+2013/01/10 14:59:08 [debug] 15110#0: setproctitle: "nginx: worker process"
+2013/01/10 14:59:08 [debug] 15110#0: worker cycle
+2013/01/10 14:59:08 [debug] 15110#0: epoll timer: -1
+2013/01/10 14:59:08 [notice] 15108#0: start worker process 15110
+2013/01/10 14:59:08 [notice] 15108#0: start procs processes
+2013/01/10 14:59:08 [debug] 15108#0: sigsuspend
