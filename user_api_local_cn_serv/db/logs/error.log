@@ -1,0 +1,472 @@
+2013/01/10 14:07:00 [emerg] 14065#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:07:01 [emerg] 14066#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:08:07 [emerg] 14078#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:08:07 [emerg] 14079#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:10:17 [emerg] 14101#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:10:17 [emerg] 14102#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:10:41 [emerg] 14107#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:10:41 [emerg] 14108#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:11:53 [emerg] 14125#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:11:53 [emerg] 14126#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:17:05 [emerg] 14158#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:17:11 [emerg] 14160#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/dbconf/nginx.conf" failed (2: No such file or directory)
+2013/01/10 14:24:59 [debug] 14318#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14318#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14318#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14318#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14318#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14318#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge srv
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14318#0: mysql merge loc
+2013/01/10 14:24:59 [notice] 14318#0: signal process started
+2013/01/10 14:24:59 [error] 14318#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/db/logs/nginx.pid" failed (2: No such file or directory)
+2013/01/10 14:24:59 [debug] 14319#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14319#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14319#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14319#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14319#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14319#0: mysql transaction
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge srv
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14319#0: mysql merge loc
+2013/01/10 14:24:59 [debug] 14319#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:24:59 [emerg] 14319#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:24:59 [notice] 14319#0: try again to bind() after 500ms
+2013/01/10 14:24:59 [debug] 14319#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:24:59 [emerg] 14319#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:24:59 [notice] 14319#0: try again to bind() after 500ms
+2013/01/10 14:24:59 [debug] 14319#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:24:59 [emerg] 14319#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:24:59 [notice] 14319#0: try again to bind() after 500ms
+2013/01/10 14:24:59 [debug] 14319#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:24:59 [emerg] 14319#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:24:59 [notice] 14319#0: try again to bind() after 500ms
+2013/01/10 14:24:59 [debug] 14319#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:24:59 [emerg] 14319#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:24:59 [notice] 14319#0: try again to bind() after 500ms
+2013/01/10 14:24:59 [emerg] 14319#0: still could not bind()
+2013/01/10 14:25:05 [debug] 14323#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14323#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14323#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14323#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14323#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14323#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge srv
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14323#0: mysql merge loc
+2013/01/10 14:25:05 [notice] 14323#0: signal process started
+2013/01/10 14:25:05 [error] 14323#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/db/logs/nginx.pid" failed (2: No such file or directory)
+2013/01/10 14:25:05 [debug] 14324#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14324#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14324#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14324#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14324#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14324#0: mysql transaction
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge srv
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14324#0: mysql merge loc
+2013/01/10 14:25:05 [debug] 14324#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:05 [emerg] 14324#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:05 [notice] 14324#0: try again to bind() after 500ms
+2013/01/10 14:25:05 [debug] 14324#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:05 [emerg] 14324#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:05 [notice] 14324#0: try again to bind() after 500ms
+2013/01/10 14:25:05 [debug] 14324#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:05 [emerg] 14324#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:05 [notice] 14324#0: try again to bind() after 500ms
+2013/01/10 14:25:13 [debug] 14327#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14327#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14327#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14327#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14327#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14327#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge srv
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14327#0: mysql merge loc
+2013/01/10 14:25:13 [notice] 14327#0: signal process started
+2013/01/10 14:25:13 [error] 14327#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/db/logs/nginx.pid" failed (2: No such file or directory)
+2013/01/10 14:25:13 [debug] 14328#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14328#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14328#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14328#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14328#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14328#0: mysql transaction
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge srv
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14328#0: mysql merge loc
+2013/01/10 14:25:13 [debug] 14328#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:13 [emerg] 14328#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:13 [notice] 14328#0: try again to bind() after 500ms
+2013/01/10 14:25:13 [debug] 14328#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:13 [emerg] 14328#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:13 [notice] 14328#0: try again to bind() after 500ms
+2013/01/10 14:25:13 [debug] 14328#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:13 [emerg] 14328#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:13 [notice] 14328#0: try again to bind() after 500ms
+2013/01/10 14:25:13 [debug] 14328#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:13 [emerg] 14328#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:13 [notice] 14328#0: try again to bind() after 500ms
+2013/01/10 14:25:13 [debug] 14328#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:13 [emerg] 14328#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:13 [notice] 14328#0: try again to bind() after 500ms
+2013/01/10 14:25:13 [emerg] 14328#0: still could not bind()
+2013/01/10 14:25:46 [debug] 14340#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14340#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14340#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14340#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14340#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14340#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge srv
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14340#0: mysql merge loc
+2013/01/10 14:25:46 [notice] 14340#0: signal process started
+2013/01/10 14:25:46 [error] 14340#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/db/logs/nginx.pid" failed (2: No such file or directory)
+2013/01/10 14:25:46 [debug] 14341#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14341#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14341#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14341#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14341#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14341#0: mysql transaction
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge srv
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14341#0: mysql merge loc
+2013/01/10 14:25:46 [debug] 14341#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:46 [emerg] 14341#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:46 [notice] 14341#0: try again to bind() after 500ms
+2013/01/10 14:25:46 [debug] 14341#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:46 [emerg] 14341#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:46 [notice] 14341#0: try again to bind() after 500ms
+2013/01/10 14:25:46 [debug] 14341#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:46 [emerg] 14341#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:46 [notice] 14341#0: try again to bind() after 500ms
+2013/01/10 14:25:46 [debug] 14341#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:46 [emerg] 14341#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:46 [notice] 14341#0: try again to bind() after 500ms
+2013/01/10 14:25:46 [debug] 14341#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:25:46 [emerg] 14341#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:25:46 [notice] 14341#0: try again to bind() after 500ms
+2013/01/10 14:25:46 [emerg] 14341#0: still could not bind()
+2013/01/10 14:26:02 [debug] 14349#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14349#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14349#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14349#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14349#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14349#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge srv
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14349#0: mysql merge loc
+2013/01/10 14:26:02 [notice] 14349#0: signal process started
+2013/01/10 14:26:02 [error] 14349#0: open() "/data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/db/logs/nginx.pid" failed (2: No such file or directory)
+2013/01/10 14:26:02 [debug] 14350#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14350#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14350#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14350#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14350#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14350#0: mysql transaction
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge srv
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14350#0: mysql merge loc
+2013/01/10 14:26:02 [debug] 14350#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:26:02 [notice] 14350#0: using the "epoll" event method
+2013/01/10 14:26:02 [debug] 14350#0: counter: 00002B389B1D3080, 1
+2013/01/10 14:26:02 [notice] 14350#0: nginx/1.2.3
+2013/01/10 14:26:02 [notice] 14350#0: built by gcc 4.1.2 20080704 (Red Hat 4.1.2-48)
+2013/01/10 14:26:02 [notice] 14350#0: OS: Linux 2.6.18-194.el5
+2013/01/10 14:26:02 [notice] 14350#0: getrlimit(RLIMIT_NOFILE): 100000:100000
+2013/01/10 14:26:02 [debug] 14351#0: write: 7, 00007FFFFD8E6900, 6, 0
+2013/01/10 14:26:02 [debug] 14351#0: setproctitle: "nginx: master process /usr/local/nginx/sbin/nginx -p /data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/db/"
+2013/01/10 14:26:02 [notice] 14351#0: start worker processes
+2013/01/10 14:26:02 [debug] 14351#0: channel 3:7
+2013/01/10 14:26:02 [notice] 14352#0: sched_setaffinity(0x0000000000000002)
+2013/01/10 14:26:02 [notice] 14351#0: start worker process 14352
+2013/01/10 14:26:02 [notice] 14351#0: start procs processes
+2013/01/10 14:26:02 [debug] 14351#0: sigsuspend
+2013/01/10 14:26:02 [debug] 14352#0: malloc: 000000000D330A20:6144
+2013/01/10 14:26:02 [debug] 14352#0: malloc: 00002B389B8DB010:196608
+2013/01/10 14:26:02 [debug] 14352#0: malloc: 000000000D358170:106496
+2013/01/10 14:26:02 [debug] 14352#0: malloc: 000000000D372180:106496
+2013/01/10 14:26:02 [debug] 14352#0: epoll add event: fd:6 op:1 ev:00000001
+2013/01/10 14:26:02 [debug] 14352#0: epoll add event: fd:7 op:1 ev:00000001
+2013/01/10 14:26:02 [debug] 14352#0: setproctitle: "nginx: worker process"
+2013/01/10 14:26:02 [debug] 14352#0: worker cycle
+2013/01/10 14:26:02 [debug] 14352#0: epoll timer: -1
+2013/01/10 14:26:04 [debug] 14355#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14355#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14355#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14355#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14355#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14355#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge srv
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14355#0: mysql merge loc
+2013/01/10 14:26:04 [notice] 14355#0: signal process started
+2013/01/10 14:26:04 [notice] 14351#0: signal 15 (SIGTERM) received, exiting
+2013/01/10 14:26:04 [debug] 14351#0: wake up, sigio 0
+2013/01/10 14:26:04 [debug] 14351#0: child: 0 14352 e:0 t:0 d:0 r:1 j:0
+2013/01/10 14:26:04 [debug] 14351#0: termination cycle: 50
+2013/01/10 14:26:04 [debug] 14351#0: sigsuspend
+2013/01/10 14:26:04 [debug] 14356#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14356#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14356#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14356#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14356#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14356#0: mysql transaction
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge srv
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14356#0: mysql merge loc
+2013/01/10 14:26:04 [debug] 14356#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:26:04 [emerg] 14356#0: bind() to 0.0.0.0:3306 failed (98: Address already in use)
+2013/01/10 14:26:04 [notice] 14356#0: try again to bind() after 500ms
+2013/01/10 14:26:04 [debug] 14352#0: epoll: fd:7 ev:0001 d:00002B389B8DB0D0
+2013/01/10 14:26:04 [debug] 14352#0: channel handler
+2013/01/10 14:26:04 [debug] 14352#0: channel: 32
+2013/01/10 14:26:04 [debug] 14352#0: channel command: 4
+2013/01/10 14:26:04 [debug] 14352#0: channel: -2
+2013/01/10 14:26:04 [debug] 14352#0: timer delta: 2756
+2013/01/10 14:26:04 [debug] 14352#0: posted events 0000000000000000
+2013/01/10 14:26:04 [notice] 14352#0: exiting
+2013/01/10 14:26:04 [debug] 14352#0: flush files
+2013/01/10 14:26:04 [debug] 14352#0: run cleanup: 000000000D347778
+2013/01/10 14:26:04 [debug] 14352#0: cleanup resolver
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D357020
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D34CF10
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D33AEB0
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D335DE0
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D334D20
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D333C60
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D32EE90
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D324790, unused: 0
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D336EA0, unused: 0
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D33CED0, unused: 0
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D340EE0, unused: 1
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D344EF0, unused: 0
+2013/01/10 14:26:04 [debug] 14352#0: free: 000000000D348F00, unused: 10152
+2013/01/10 14:26:04 [notice] 14352#0: exit
+2013/01/10 14:26:04 [notice] 14351#0: signal 17 (SIGCHLD) received
+2013/01/10 14:26:04 [notice] 14351#0: worker process 14352 exited with code 0
+2013/01/10 14:26:04 [debug] 14351#0: shmtx forced unlock
+2013/01/10 14:26:04 [debug] 14351#0: wake up, sigio 3
+2013/01/10 14:26:04 [debug] 14351#0: reap children
+2013/01/10 14:26:04 [debug] 14351#0: child: 0 14352 e:1 t:1 d:0 r:1 j:0
+2013/01/10 14:26:04 [notice] 14351#0: exit
+2013/01/10 14:26:04 [debug] 14351#0: close listening 0.0.0.0:3306 #6 
+2013/01/10 14:26:04 [debug] 14351#0: run cleanup: 000000000D347778
+2013/01/10 14:26:04 [debug] 14351#0: cleanup resolver
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D357020
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D34CF10
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D33AEB0
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D335DE0
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D334D20
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D333C60
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D32EE90
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D324790, unused: 0
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D336EA0, unused: 0
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D33CED0, unused: 0
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D340EE0, unused: 1
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D344EF0, unused: 0
+2013/01/10 14:26:04 [debug] 14351#0: free: 000000000D348F00, unused: 10163
+2013/01/10 14:26:04 [debug] 14356#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:26:04 [notice] 14356#0: using the "epoll" event method
+2013/01/10 14:26:04 [debug] 14356#0: counter: 00002AF2A0B39080, 1
+2013/01/10 14:26:04 [notice] 14356#0: nginx/1.2.3
+2013/01/10 14:26:04 [notice] 14356#0: built by gcc 4.1.2 20080704 (Red Hat 4.1.2-48)
+2013/01/10 14:26:04 [notice] 14356#0: OS: Linux 2.6.18-194.el5
+2013/01/10 14:26:04 [notice] 14356#0: getrlimit(RLIMIT_NOFILE): 100000:100000
+2013/01/10 14:26:04 [debug] 14357#0: write: 7, 00007FFF8E330960, 6, 0
+2013/01/10 14:26:04 [debug] 14357#0: setproctitle: "nginx: master process /usr/local/nginx/sbin/nginx -p /data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/db/"
+2013/01/10 14:26:04 [notice] 14357#0: start worker processes
+2013/01/10 14:26:04 [debug] 14357#0: channel 3:7
+2013/01/10 14:26:04 [notice] 14358#0: sched_setaffinity(0x0000000000000002)
+2013/01/10 14:26:04 [debug] 14358#0: malloc: 0000000002E47A20:6144
+2013/01/10 14:26:04 [debug] 14358#0: malloc: 00002AF2A1241010:196608
+2013/01/10 14:26:04 [debug] 14358#0: malloc: 0000000002E6F170:106496
+2013/01/10 14:26:04 [debug] 14358#0: malloc: 0000000002E89180:106496
+2013/01/10 14:26:04 [debug] 14358#0: epoll add event: fd:6 op:1 ev:00000001
+2013/01/10 14:26:04 [debug] 14358#0: epoll add event: fd:7 op:1 ev:00000001
+2013/01/10 14:26:04 [debug] 14358#0: setproctitle: "nginx: worker process"
+2013/01/10 14:26:04 [debug] 14358#0: worker cycle
+2013/01/10 14:26:04 [debug] 14358#0: epoll timer: -1
+2013/01/10 14:26:04 [notice] 14357#0: start worker process 14358
+2013/01/10 14:26:04 [notice] 14357#0: start procs processes
+2013/01/10 14:26:04 [debug] 14357#0: sigsuspend
+2013/01/10 14:26:25 [debug] 14365#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14365#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14365#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14365#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14365#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14365#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge srv
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14365#0: mysql merge loc
+2013/01/10 14:26:25 [notice] 14365#0: signal process started
+2013/01/10 14:26:25 [notice] 14357#0: signal 15 (SIGTERM) received, exiting
+2013/01/10 14:26:25 [debug] 14357#0: wake up, sigio 0
+2013/01/10 14:26:25 [debug] 14357#0: child: 0 14358 e:0 t:0 d:0 r:1 j:0
+2013/01/10 14:26:25 [debug] 14357#0: termination cycle: 50
+2013/01/10 14:26:25 [debug] 14357#0: sigsuspend
+2013/01/10 14:26:25 [debug] 14358#0: epoll: fd:7 ev:0001 d:00002AF2A12410D0
+2013/01/10 14:26:25 [debug] 14358#0: channel handler
+2013/01/10 14:26:25 [debug] 14358#0: channel: 32
+2013/01/10 14:26:25 [debug] 14358#0: channel command: 4
+2013/01/10 14:26:25 [debug] 14358#0: channel: -2
+2013/01/10 14:26:25 [debug] 14358#0: timer delta: 21061
+2013/01/10 14:26:25 [debug] 14358#0: posted events 0000000000000000
+2013/01/10 14:26:25 [notice] 14358#0: exiting
+2013/01/10 14:26:25 [debug] 14358#0: flush files
+2013/01/10 14:26:25 [debug] 14358#0: run cleanup: 0000000002E5E778
+2013/01/10 14:26:25 [debug] 14358#0: cleanup resolver
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E6E020
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E63F10
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E51EB0
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E4CDE0
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E4BD20
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E4AC60
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E45E90
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E3B790, unused: 0
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E4DEA0, unused: 0
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E53ED0, unused: 0
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E57EE0, unused: 1
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E5BEF0, unused: 0
+2013/01/10 14:26:25 [debug] 14358#0: free: 0000000002E5FF00, unused: 10152
+2013/01/10 14:26:25 [notice] 14358#0: exit
+2013/01/10 14:26:25 [notice] 14357#0: signal 17 (SIGCHLD) received
+2013/01/10 14:26:25 [notice] 14357#0: worker process 14358 exited with code 0
+2013/01/10 14:26:25 [debug] 14357#0: shmtx forced unlock
+2013/01/10 14:26:25 [debug] 14357#0: wake up, sigio 3
+2013/01/10 14:26:25 [debug] 14357#0: reap children
+2013/01/10 14:26:25 [debug] 14357#0: child: 0 14358 e:1 t:1 d:0 r:1 j:0
+2013/01/10 14:26:25 [notice] 14357#0: exit
+2013/01/10 14:26:25 [debug] 14357#0: close listening 0.0.0.0:3306 #6 
+2013/01/10 14:26:25 [debug] 14357#0: run cleanup: 0000000002E5E778
+2013/01/10 14:26:25 [debug] 14357#0: cleanup resolver
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E6E020
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E63F10
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E51EB0
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E4CDE0
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E4BD20
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E4AC60
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E45E90
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E3B790, unused: 0
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E4DEA0, unused: 0
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E53ED0, unused: 0
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E57EE0, unused: 1
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E5BEF0, unused: 0
+2013/01/10 14:26:25 [debug] 14357#0: free: 0000000002E5FF00, unused: 10163
+2013/01/10 14:26:25 [debug] 14366#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14366#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14366#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14366#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14366#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14366#0: mysql transaction
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge srv
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14366#0: mysql merge loc
+2013/01/10 14:26:25 [debug] 14366#0: bind() 0.0.0.0:3306 #6 
+2013/01/10 14:26:25 [notice] 14366#0: using the "epoll" event method
+2013/01/10 14:26:25 [debug] 14366#0: counter: 00002BA57A710080, 1
+2013/01/10 14:26:25 [notice] 14366#0: nginx/1.2.3
+2013/01/10 14:26:25 [notice] 14366#0: built by gcc 4.1.2 20080704 (Red Hat 4.1.2-48)
+2013/01/10 14:26:25 [notice] 14366#0: OS: Linux 2.6.18-194.el5
+2013/01/10 14:26:25 [notice] 14366#0: getrlimit(RLIMIT_NOFILE): 100000:100000
+2013/01/10 14:26:25 [debug] 14367#0: write: 7, 00007FFF5A4A2530, 6, 0
+2013/01/10 14:26:25 [debug] 14367#0: setproctitle: "nginx: master process /usr/local/nginx/sbin/nginx -p /data/denofiend/workspace/git/openresty_lua_app/user_api_local_cn_serv/db/"
+2013/01/10 14:26:25 [notice] 14367#0: start worker processes
+2013/01/10 14:26:25 [debug] 14367#0: channel 3:7
+2013/01/10 14:26:25 [notice] 14368#0: sched_setaffinity(0x0000000000000002)
+2013/01/10 14:26:25 [notice] 14367#0: start worker process 14368
+2013/01/10 14:26:25 [notice] 14367#0: start procs processes
+2013/01/10 14:26:25 [debug] 14367#0: sigsuspend
+2013/01/10 14:26:25 [debug] 14368#0: malloc: 000000000F16BA20:6144
+2013/01/10 14:26:25 [debug] 14368#0: malloc: 00002BA57AE18010:196608
+2013/01/10 14:26:25 [debug] 14368#0: malloc: 000000000F193170:106496
+2013/01/10 14:26:25 [debug] 14368#0: malloc: 000000000F1AD180:106496
+2013/01/10 14:26:25 [debug] 14368#0: epoll add event: fd:6 op:1 ev:00000001
+2013/01/10 14:26:25 [debug] 14368#0: epoll add event: fd:7 op:1 ev:00000001
+2013/01/10 14:26:25 [debug] 14368#0: setproctitle: "nginx: worker process"
+2013/01/10 14:26:25 [debug] 14368#0: worker cycle
+2013/01/10 14:26:25 [debug] 14368#0: epoll timer: -1
