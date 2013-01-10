@@ -43,7 +43,7 @@ def checkResponse(responseBody):
 #register
 def register(host):
 	url = "/register"
-	body = "{\"account\":\"zhaoxu-123@gmail.com\", \"email\":\"zhaoxu-123@gmail.com\",\"nickname\": \"zhaoxu@com\", \"password\":\"123\"}"
+	body = "{\"account\":\"zhaoxu@gmail.com\", \"email\":\"zhaoxu@gmail.com\",\"nickname\": \"zhaoxu@com\", \"password\":\"123\"}"
 
 	httpMethod = "POST"
 	headers = {"Content-type": "application/json"}

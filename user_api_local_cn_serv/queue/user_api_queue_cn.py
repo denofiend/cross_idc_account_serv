@@ -60,17 +60,24 @@ def update_status(region_id, status):
 	return doRequest(host, url, httpMethod, None, headers)
 
 
-def center_sync(body):
+def center_sync(host, body):
 	url = "/sync"
-	#body = "{\"type\":\"insert\", \"region_id\":1, \"user_id\":5, \"email\":\"denofiend-2012@gmail.com\", \"account\":\"denofiend-2012@gmail.com\", \"nickname\": \"denofiend-25\", \"password\":\"ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1\"}"
 	httpMethod = "POST"
 	headers = {"Content-type": "application/json"}
-	host = "user-api-center.maxthon.cn"
 	return doRequest(host, url, httpMethod, body, headers)
 
 
 # main function
 def main():
+
+	if len(sys.argv) != 3:
+		print "Usage:python user_api.queue.py host port"
+		sys.exit(-2)
+
+	host = sys.argv[1]
+	port = sys.argv[2]
+	host = host + ":" + port
+
 	#get one from quqeue
 	print ">>> get one from queue"
 	body =  select()
@@ -93,7 +100,7 @@ def main():
 
 	#sync this message to user_api_center
 	print ">>> sync this message to user_api_center"
-	sync_body =  center_sync(json.dumps(json_json))
+	sync_body =  center_sync(host, json.dumps(json_json))
 	sync_json = json.loads(sync_body)
 	print sync_json
 
