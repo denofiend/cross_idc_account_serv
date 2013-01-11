@@ -52,8 +52,7 @@ def register(host):
 #update
 def update(user_id,host):
 	url = "/update"
-	body = "{\"user_id\":"+ user_id +", \"email\":\"denofiend-2012@gmail.com\", \"nickname\": \"denofiend-25\", \"password\":\"123456\"}"
-
+	body = "{\"user_id\":"+ str(user_id) +", \"email\":\"denofiend@gmail.com\", \"nickname\": \"denofiend-25\", \"password\":\"123456\"}"
 	httpMethod = "POST"
 	headers = {"Content-type": "application/json"}
 	return doRequest(host, url, httpMethod, body, headers)
@@ -63,13 +62,14 @@ def update(user_id,host):
 def main():
 	host = sys.argv[1]
 	port = sys.argv[2]
+	host = host + ":" + port
 	print host
-	body =  register(host +":" + port)
-	print body
-	jsonData = json.loads(body) 
+	#body =  register(host)
+	#print body
+	#jsonData = json.loads(body) 
 
-   # user_id = jsonData['user_id']
-   # print update(user_id)
+	#user_id = jsonData['user_id']
+	print update(2729, host)
 
 main()
 

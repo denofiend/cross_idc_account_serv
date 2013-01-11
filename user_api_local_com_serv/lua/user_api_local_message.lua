@@ -50,7 +50,7 @@ function is_own(req_obj)
 	local res = ngx.location.capture(uri)
 	local body = cjson.decode(res.body)
 	
-	res_obj['code'] = body.errcode;
+	res_obj['code'] = body[1].count;
 
 	if body.errcode ~= 0 then
 		res_obj['message'] = body.errstr
@@ -84,7 +84,7 @@ function run(region)
 	if type == "insert" then
 		res_obj = is_own(req_obj)
 
-		if 0 ~= res_obj['code'] then
+		if 0 == res_obj['code'] then
 			res_obj = user_api_local_add(req_obj.user_id, req_obj)
 		end
 	else
