@@ -6,7 +6,7 @@ function user_api_local_add(user_id, req_obj)
 
 	local cjson = require "cjson"
 	local uri = "/mx_user/add?user_id=" .. user_id .. 
-	"&email=" .. req_obj.account .. "&account="..req_obj.account..
+	"&email=" .. req_obj.email .. "&account="..req_obj.account..
 	"&password="..req_obj.password.."&nickname="..req_obj.nickname..
 	"&json="..cjson.encode(req_obj).."&status=0"
 	local res = ngx.location.capture(uri)
@@ -51,22 +51,12 @@ function register(region)
 		res_obj['message'] = 'ok'
 	end
 
-	--[[
-    --insert into `base_usr_info` table
-    local sql = "insert into `base_user_info`(`user_id`, `email`, `account`, `password`, `nickname`)values("..user_id..",'"..req_obj.account.."','"..req_obj.account.."','"..req_obj.password.."','"..req_obj.nickname.."')"
-    res_obj = executeSql(sql)
-
-    --insert into `transaction_table` table
-    sql = "insert into `transaction_table`(`user_id`, `type`, `json`)values("..user_id..",'insert','"..data.."')"
-    res_obj = executeSql(sql)
-
-	--]]
     -- return res
     local cjson = require "cjson"
     ngx.say(cjson.encode(res_obj))
 end
 
 
-register('IDC5')
+register('IDC-com')
 
 

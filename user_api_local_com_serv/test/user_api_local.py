@@ -43,7 +43,7 @@ def checkResponse(responseBody):
 #register
 def register(host):
 	url = "/register"
-	body = "{\"account\":\"zhaoxu-123@gmail.com\", \"email\":\"zhaoxu-123@gmail.com\",\"nickname\": \"zhaoxu@com\", \"password\":\"123\"}"
+	body = "{\"account\":\"cloud@gmail.com\", \"email\":\"cloud@gmail.com\",\"nickname\": \"cloud\", \"password\":\"123456\"}"
 
 	httpMethod = "POST"
 	headers = {"Content-type": "application/json"}
@@ -63,8 +63,10 @@ def update(user_id,host):
 def main():
 	host = sys.argv[1]
 	port = sys.argv[2]
+	host = host +":" + port
+
 	print host
-	body =  register(host +":" + port)
+	body =  register(host)
 	print body
 	jsonData = json.loads(body) 
 

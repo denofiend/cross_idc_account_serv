@@ -46,7 +46,7 @@ def select():
 	#body = "{\"account\":\"denofiend@gmail.com\", \"nickname\": \"denofiend\", \"password\":\"ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1\"}"
 	httpMethod = "GET"
 	headers = {"Content-type": "application/json"}
-	host = "db.maxthon.cn:3306"
+	host = "db.maxthon.com:3306"
 
 	return doRequest(host, url, httpMethod, None, headers)
 
@@ -56,23 +56,32 @@ def update_status(region_id, status):
 
 	httpMethod = "GET"
 	headers = {"Content-type": "application/json"}
-	host = "db.maxthon.cn:3306"
+	host = "db.maxthon.com:3306"
 	return doRequest(host, url, httpMethod, None, headers)
 
 
-def center_sync(body):
+def center_sync(host, body):
 	url = "/sync"
-	#body = "{\"type\":\"insert\", \"region_id\":1, \"user_id\":5, \"email\":\"denofiend-2012@gmail.com\", \"account\":\"denofiend-2012@gmail.com\", \"nickname\": \"denofiend-25\", \"password\":\"ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1\"}"
 	httpMethod = "POST"
 	headers = {"Content-type": "application/json"}
-	host = "user-api-center.maxthon.cn"
 	return doRequest(host, url, httpMethod, body, headers)
 
 
 # main function
 def main():
+
+	if len(sys.argv) != 3:
+		print "Usage:python user_api.queue.py host port"
+		sys.exit(-2)
+
+	host = sys.argv[1]
+	port = sys.argv[2]
+	host = host + ":" + port
+
 	#get one from quqeue
+	print ">>> get one from queue"
 	body =  select()
+	print body
 	jsonData = json.loads(body)
 
 	if len(jsonData) == 0:
@@ -86,16 +95,22 @@ def main():
 	json_json['user_id'] = jsonData[0]['user_id']
 
 	#set this message status to 1
-	print update_status(jsonData[0]['region_id'], 1);
+	print ">>> set this message status to 1(RUNNING)"
+	print update_status(jsonData[0]['region_id'], 1)
 
 	#sync this message to user_api_center
-	sync_body =  center_sync(json.dumps(json_json))
+	print ">>> sync this message to user_api_center"
+	sync_body =  center_sync(host, json.dumps(json_json))
 	sync_json = json.loads(sync_body)
 	print sync_json
 
 	if sync_json['code'] == 1:
 		#set this message status to 2
-		update_status(jsonData[0]['region_id'], 2);
+		print ">>> set this message status to 2(FINISH)"
+		print update_status(jsonData[0]['region_id'], 2)
+	
+	print "<<< one task over"
+
 
 
 main()
