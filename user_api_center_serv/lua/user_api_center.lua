@@ -33,6 +33,9 @@ function doDB(pre_uri, req_obj)
 		"&json="..cjson.encode(req_obj)..
 		"&status=0"..
 		"&region_id="..req_obj.region_id
+		if req_obj.type == 'insert' then
+			uri = uri .. "&account="..req_obj.account
+		end
 
 		ngx.log(ngx.DEBUG, uri)
 
