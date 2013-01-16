@@ -9,7 +9,7 @@ Description
 
 It contains ids service, id service, user-local service, user-local queue service, and user-center service, user-center queue service.
 
-1.ids service: distribute segment of user id.
+1. ids service: distribute segment of user id.
 
 2. id service: get netxt insert id.
 
