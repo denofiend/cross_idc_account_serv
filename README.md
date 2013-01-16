@@ -59,13 +59,13 @@ nginx-mysql-module install
 
 openresty install
 =================
-  git clone https://github.com/denofiend/ngx_openresty.git
-  cd ngx_openresty
-  make
-  cd ngx_openresty-1.2.6.1rc2
-  ./configure --with-luajit
-  make
-  sudo make install
+		git clone https://github.com/denofiend/ngx_openresty.git
+  		cd ngx_openresty
+  		make
+  		cd ngx_openresty-1.2.6.1rc2
+  		./configure --with-luajit
+  		make
+  		sudo make install
 
 
 
