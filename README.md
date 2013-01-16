@@ -1,7 +1,7 @@
 Name
 =================
 
-cross IDC account server: A user account services in China, the United States, Europe, and Other countries.
+cross IDC account service(http server): A user account services in China, the United States, Europe, and Other countries.
 
 
 Description
@@ -60,17 +60,40 @@ openresty install
 =================
 
 	#download openresty
-	git clone https://github.com/denofiend/ngx_openresty.git
+		git clone https://github.com/denofiend/ngx_openresty.git
 
 	#install openresty
-  	cd ngx_openresty
-  	make
-  	cd ngx_openresty-1.2.6.1rc2
-  	./configure --with-luajit
-  	make
-  	sudo make install
+  		cd ngx_openresty
+  		make
+  		cd ngx_openresty-1.2.6.1rc2
+  		./configure --with-luajit
+  		make
+  		sudo make install
 
 
+cross IDC account service(http server) install
+=================
+	
+ids service config
+=================
 
+#mysql config
+	create database ids;
+
+	CREATE TABLE `ids` (
+			`beg_id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`end_id` bigint(20) NOT NULL,
+			`region` varchar(15) NOT NULL,
+			PRIMARY KEY (`beg_id`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+	
+	grant select, insert, update, delete on mx_ids.* to ids@'%';
+	grant all on ids.* to ids@"%" identified by 'ids';
+
+	#download cross IDC account service(http server)
+	git clone https://github.com/denofiend/cross_idc_account_serv.git
+
+
+	#ids service mysql config
 
 
