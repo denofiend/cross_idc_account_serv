@@ -23,10 +23,8 @@ It contains ids service, id service, user-local service, user-local queue servic
 
 
 
-INSTALL
+REQUIRED
 =================
-
-[required]:
 
 1. nginx(nginx.org)
 
@@ -36,25 +34,26 @@ INSTALL
 
 
 
-[install]:
+INSTALL
+=================
 
 nginx-mysql-module install
 =================
 
-#download nginx
-  wget http://nginx.org/download/nginx-1.2.6.tar.gz
+		#download nginx
+  			wget http://nginx.org/download/nginx-1.2.6.tar.gz
 
-#download nginx-mysql-module 
-  git clone https://github.com/denofiend/nginx-mysql-module
-  git clone https://github.com/arut/nginx-mtask-module
-  git clone https://github.com/denofiend/rds-json-nginx-module
+		#download nginx-mysql-module 
+  			git clone https://github.com/denofiend/nginx-mysql-module
+  			git clone https://github.com/arut/nginx-mtask-module
+  			git clone https://github.com/denofiend/rds-json-nginx-module
 
-#install nginx
-  tar xvzf nginx-1.2.6.tar.gz
-  cd nginx-1.2.6
-  ./configure --add-module=/path/to/nginx-mysql-module/ --add-module=/path/to/nginx-mtask-module/ --add-module=/path/to/rds-json-nginx-module/
-  make
-  sudo make install
+		#install nginx
+  			tar xvzf nginx-1.2.6.tar.gz
+			cd nginx-1.2.6
+			./configure --add-module=/path/to/nginx-mysql-module/ --add-module=/path/to/nginx-mtask-module/ --add-module=/path/to/rds-json-nginx-module/
+			make
+			sudo make install
  
 
 openresty install
