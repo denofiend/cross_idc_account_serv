@@ -73,11 +73,14 @@ openresty install
 
 cross IDC account service(http server) install
 =================
-	
-ids service config
-=================
+	#download cross IDC account service(http server)
+	git clone https://github.com/denofiend/cross_idc_account_serv.git
 
-#mysql config
+	
+ids service 
+=======
+
+#mysql sqls
 	create database ids;
 
 	CREATE TABLE `ids` (
@@ -90,10 +93,22 @@ ids service config
 	grant select, insert, update, delete on mx_ids.* to ids@'%';
 	grant all on ids.* to ids@"%" identified by 'ids';
 
+#ids service mysql configure on ids.lua 
 	#download cross IDC account service(http server)
-	git clone https://github.com/denofiend/cross_idc_account_serv.git
+	cd cross_idc_account_serv/ids_serv
+	vim lua/ids.lua
+
+	#find the mysql config following, and then modify for your mysql config.  
+		options['host'] = "10.100.15.7"
+		options['port'] = 3306
+		options['database'] = "ids"
+		options['user'] = "ids"
+		options['password'] = "ids"
+
+#start ids service
+	mkdir logs
+	./app_run.sh
 
 
-	#ids service mysql config
 
 
