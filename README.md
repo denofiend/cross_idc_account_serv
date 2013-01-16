@@ -1,11 +1,11 @@
 Name
-=================
+====
 
 cross IDC account service(http server): A user account services in China, the United States, Europe, and Other countries.
 
 
 Description
-=================
+===========
 
 It contains ids service, id service, user-local service, user-local queue service, and user-center service, user-center queue service.
 
@@ -24,7 +24,7 @@ It contains ids service, id service, user-local service, user-local queue servic
 
 
 REQUIRED
-=================
+========
 
 1. nginx(http://nginx.org)
 
@@ -35,52 +35,53 @@ REQUIRED
 
 
 INSTALL
-=================
+=======
 
 nginx-mysql-module install
-=================
+--------------------------
 
 	#download nginx
-  		wget http://nginx.org/download/nginx-1.2.6.tar.gz
+  		$ wget http://nginx.org/download/nginx-1.2.6.tar.gz
 
 	#download nginx-mysql-module 
-  		git clone https://github.com/denofiend/nginx-mysql-module
-  		git clone https://github.com/arut/nginx-mtask-module
-  		git clone https://github.com/denofiend/rds-json-nginx-module
+  		$ git clone https://github.com/denofiend/nginx-mysql-module
+  		$ git clone https://github.com/arut/nginx-mtask-module
+  		$ git clone https://github.com/denofiend/rds-json-nginx-module
 
 	#install nginx
-  		tar xvzf nginx-1.2.6.tar.gz
-		cd nginx-1.2.6
-		./configure --add-module=/path/to/nginx-mysql-module/ --add-module=/path/to/nginx-mtask-module/ --add-module=/path/to/rds-json-nginx-module/
-		make
-		sudo make install
+  		$ tar xvzf nginx-1.2.6.tar.gz
+		$ cd nginx-1.2.6
+		$ ./configure --add-module=/path/to/nginx-mysql-module/ --add-module=/path/to/nginx-mtask-module/ --add-module=/path/to/rds-json-nginx-module/
+		$ make
+		$ sudo make install
  
 
 openresty install
-=================
+-----------------
 
 	#download openresty
-		git clone https://github.com/denofiend/ngx_openresty.git
+		$ git clone https://github.com/denofiend/ngx_openresty.git
 
 	#install openresty
-  		cd ngx_openresty
-  		make
-  		cd ngx_openresty-1.2.6.1rc2
-  		./configure --with-luajit
-  		make
-  		sudo make install
+  		$ cd ngx_openresty
+  		$ make
+  		$ cd ngx_openresty-1.2.6.1rc2
+  		$ ./configure --with-luajit
+  		$ make
+  		$ sudo make install
 
 
 cross IDC account service(http server) install
-=================
+----------------------------------------------
 	#download cross IDC account service(http server)
-	git clone https://github.com/denofiend/cross_idc_account_serv.git
+		$ git clone https://github.com/denofiend/cross_idc_account_serv.git
 
 	
 ids service 
-=======
+-----------
 
-#mysql sqls
+mysql sqls
+-----------
 	create database ids;
 
 	CREATE TABLE `ids` (
@@ -93,10 +94,11 @@ ids service
 	grant select, insert, update, delete on mx_ids.* to ids@'%';
 	grant all on ids.* to ids@"%" identified by 'ids';
 
-#ids service mysql configure on ids.lua 
+ids service mysql configure on ids.lua 
+---------------------------------------
 	#download cross IDC account service(http server)
-	cd cross_idc_account_serv/ids_serv
-	vim lua/ids.lua
+		$ cd cross_idc_account_serv/ids_serv
+		$ vim lua/ids.lua
 
 	#find the mysql config following, and then modify for your mysql config.  
 		options['host'] = "10.100.15.7"
@@ -105,9 +107,10 @@ ids service
 		options['user'] = "ids"
 		options['password'] = "ids"
 
-#start ids service
-	mkdir logs
-	./app_run.sh
+start ids service
+------------------
+	$ mkdir logs
+	$ ./app_run.sh
 
 
 
