@@ -26,7 +26,7 @@ It contains ids service, id service, user-local service, user-local queue servic
 REQUIRED
 =================
 
-1. nginx(nginx.org)
+1. nginx(http://nginx.org)
 
 2. openresty(http://openresty.org/)
 
