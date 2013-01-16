@@ -13,7 +13,7 @@ It contains ids service, id service, user-local service, user-local queue servic
 
 2. id service: get netxt insert id.
 
-3. user-local service: registe,
+3. user-local service: write, read operations for user db.
 
 4. user-local queue service: send the write operation to user-center service asynchronously.
 
