@@ -84,7 +84,7 @@ Download cross IDC account service(http server)
 
 	
 Install ids service in your center IDC
------------
+--------------------------------------
 
 Create ids mysql database on your db server:
 
@@ -114,15 +114,80 @@ Find the mysql config following, and then modify for your mysql config.
 	options['password'] = "ids"
 
 Start ids service
-------------------
 
 	$ mkdir logs
 	$ ./app_run.sh
 
 Test ids service
-----------------
 
 	$ curl http://ids-u.maxthon.cn/ids/segment/get
 
 
+Install user-local service, id service in cn IDC(other server)
+-----------------------------------------------------
+
+Create user-local mysql database on your db server:
+
+	create database mx_u_loc_cn;
+
+	CREATE TABLE `base_user_info` (
+		`user_id` int(11) NOT NULL,
+		`account` varchar(255) NOT NULL,
+		`password` char(64) DEFAULT NULL,
+		`nickname` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+		`gender` tinyint(4) DEFAULT '0',
+		`status` tinyint(4) DEFAULT '2',
+		`ip` varchar(50) DEFAULT NULL,
+		`register_time` char(10) DEFAULT NULL,
+		`update_time` char(10) DEFAULT NULL,
+		`language` char(50) DEFAULT NULL,
+		`from` char(20) DEFAULT NULL,
+		`email` varchar(255) DEFAULT NULL,
+		`mobile` varchar(255) DEFAULT NULL,
+		`country_code` int(11) DEFAULT NULL,
+		PRIMARY KEY (`user_id`),
+		UNIQUE KEY `account` (`account`),
+		UNIQUE KEY `nickname` (`nickname`),
+		UNIQUE KEY `email` (`email`),
+		UNIQUE KEY `mobile` (`mobile`,`country_code`),
+		KEY `register` (`register_time`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+	CREATE TABLE `transaction_table` (
+	  `region_id` bigint(20) NOT NULL AUTO_INCREMENT,
+	    `user_id` bigint(20) NOT NULL,
+		  `type` varchar(15) DEFAULT NULL,
+		    `json` varchar(500) DEFAULT NULL,
+			  `status` int(2) NOT NULL,
+			    PRIMARY KEY (`region_id`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8; 
+	
+	grant select, insert, update, delete on mx_u_loc_cn.* to mx_u_loc_cn@'%';
+	grant all on mx_u_loc_cn.* to mx_u_loc_cn@"%" identified by 'mx_u_loc_cn';
+
+
+Find user-local service mysql configure in db/conf/user_api_local.conf file
+
+	$ cd /cross_idc_account_serv/user_api_local_cn_serv
+	$ vim db/conf/user_api_local.conf
+
+Find the mysql config following, and then modify for your mysql config.  
+
+	mysql_host 10.100.15.7;
+	mysql_user mx_u_loc_cn;
+	mysql_password mx_u_loc_cn;
+	mysql_port 3306;
+	mysql_database mx_u_loc_cn;
+
+Start user-local mysql http service
+
+	$ cd db
+	$ mkdir logs
+	$ ./db_run.sh
+
+Start user-local service
+
+	$ cd ../
+	$ mkdir logs
+	$ ./app_run.sh
 
