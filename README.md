@@ -76,9 +76,9 @@ Install openresty
   	$ sudo make install
 
 
-Install cross IDC account service(http server) 
-----------------------------------------------
-Download cross IDC account service(http server)
+Install cross IDC account service
+---------------------------------
+Download cross IDC account service(http service)
 
 	$ git clone https://github.com/denofiend/cross_idc_account_serv.git
 
@@ -133,8 +133,8 @@ Test ids service
 	$ curl http://ids-u.maxthon.cn/ids/segment/get
 
 
-Install user-local service, id service in cn IDC(other server)
------------------------------------------------------
+Install user-local service, id service in cn IDC
+------------------------------------------------
 
 Create user-local mysql database on your db server:
 
@@ -251,7 +251,7 @@ Test user-local
 
 
 Install user-center service in center IDC
------------------------------------------------------
+-----------------------------------------
 
 Create user-local mysql database on your db server:
 
