@@ -1,7 +1,7 @@
 Name
 ====
 
-cross IDC account service(http server): A user account services in China, the United States, Europe, and Other countries.
+cross IDC account service(http service): A user account services system in China, the United States, Europe, and Other countries.
 
 
 Description
