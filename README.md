@@ -120,6 +120,16 @@ Start ids service
 
 Test ids service
 
+	$ sudo vim /etc/hosts
+
+		127.0.0.1 user-api-local.maxthon.cn
+		10.100.15.10 user-api-local.maxthon.com
+		127.0.0.1 user-api-center.maxthon.cn
+		127.0.0.1 db.maxthon.cn
+		127.0.0.1 center.db.maxthon.cn
+		127.0.0.1 ids-u.maxthon.cn
+		127.0.0.1 id-u.maxthon.cn
+
 	$ curl http://ids-u.maxthon.cn/ids/segment/get
 
 
@@ -155,11 +165,11 @@ Create user-local mysql database on your db server:
 
 	CREATE TABLE `transaction_table` (
 	  `region_id` bigint(20) NOT NULL AUTO_INCREMENT,
-	    `user_id` bigint(20) NOT NULL,
-		  `type` varchar(15) DEFAULT NULL,
-		    `json` varchar(500) DEFAULT NULL,
-			  `status` int(2) NOT NULL,
-			    PRIMARY KEY (`region_id`)
+	  `user_id` bigint(20) NOT NULL,
+	  `type` varchar(15) DEFAULT NULL,
+	  `json` varchar(500) DEFAULT NULL,
+	  `status` int(2) NOT NULL,
+	   PRIMARY KEY (`region_id`)
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8; 
 	
 	grant select, insert, update, delete on mx_u_loc_cn.* to mx_u_loc_cn@'%';
@@ -190,4 +200,23 @@ Start user-local service
 	$ cd ../
 	$ mkdir logs
 	$ ./app_run.sh
+
+Test user-local 
+
+	$ sudo vim /etc/hosts
+
+		127.0.0.1 user-api-local.maxthon.cn
+		10.100.15.10 user-api-local.maxthon.com
+		127.0.0.1 user-api-center.maxthon.cn
+		127.0.0.1 db.maxthon.cn
+		127.0.0.1 center.db.maxthon.cn
+		127.0.0.1 ids-u.maxthon.cn
+		127.0.0.1 id-u.maxthon.cn
+
+	$ cd test
+	$ sudo yum install python-setuptools
+	$ sudo easy_install simplejson
+	$ python user_api_local.py user-api-local.maxthon.cn 1986
+	{"user_id":"2732","code":0,"message":"ok"}
+
 
