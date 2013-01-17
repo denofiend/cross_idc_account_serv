@@ -250,3 +250,72 @@ Test user-local
 	{"user_id":"2732","code":0,"message":"ok"}
 
 
+Install user-center service in center IDC
+-----------------------------------------------------
+
+Create user-local mysql database on your db server:
+
+	create database user_api_center;
+
+	CREATE TABLE `base_user_info` (
+		`user_id` int(11) NOT NULL,
+		`account` varchar(255) NOT NULL,
+		`password` char(64) DEFAULT NULL,
+		`nickname` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+		`gender` tinyint(4) DEFAULT '0',
+		`status` tinyint(4) DEFAULT '2',
+		`ip` varchar(50) DEFAULT NULL,
+		`register_time` char(10) DEFAULT NULL,
+		`update_time` char(10) DEFAULT NULL,
+		`language` char(50) DEFAULT NULL,
+		`from` char(20) DEFAULT NULL,
+		`email` varchar(255) DEFAULT NULL,
+		`mobile` varchar(255) DEFAULT NULL,
+		`country_code` int(11) DEFAULT NULL,
+		PRIMARY KEY (`user_id`),
+		UNIQUE KEY `account` (`account`),
+		UNIQUE KEY `nickname` (`nickname`),
+		UNIQUE KEY `email` (`email`),
+		UNIQUE KEY `mobile` (`mobile`,`country_code`),
+		KEY `register` (`register_time`)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+	 CREATE TABLE `message_table` (
+	   `id` bigint(20) NOT NULL AUTO_INCREMENT,
+	   `user_id` bigint(20) NOT NULL,
+	   `type` varchar(15) DEFAULT NULL,
+	   `json` varchar(255) NOT NULL,
+	   `status` int(2) NOT NULL,
+	   `region_id` int(20) NOT NULL,
+	   PRIMARY KEY (`id`)
+	) ENGINE=InnoDB AUTO_INCREMENT=79 DEFAULT CHARSET=utf8 
+	
+	grant select, insert, update, delete on user_api_center.* to user_api_center@'%';
+	grant all on user_api_center.* to user_api_center@"%" identified by 'user_api_center';
+
+
+Find user-local service mysql configure in db/conf/user_api_local.conf file
+
+	$ cd cross_idc_account_serv/user_api_center_serv
+	$ vim db/conf/user_api_center.conf
+
+Find the mysql config following, and then modify for your mysql config.  
+
+	mysql_host 10.100.15.6;
+	mysql_user user_api_center;
+	mysql_password user_api_center;
+	mysql_port 3306;
+	mysql_database user_api_center;
+
+Start user-local mysql http service
+
+	$ cd db
+	$ mkdir logs
+	$ ./db_run.sh
+
+Start user-center service
+
+	$ cd ../
+	$ mkdir logs
+	$ ./app_run.sh
+
