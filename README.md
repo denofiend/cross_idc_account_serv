@@ -178,7 +178,7 @@ Create user-local mysql database on your db server:
 
 Find user-local service mysql configure in db/conf/user_api_local.conf file
 
-	$ cd /cross_idc_account_serv/user_api_local_cn_serv
+	$ cd cross_idc_account_serv/user_api_local_cn_serv
 	$ vim db/conf/user_api_local.conf
 
 Find the mysql config following, and then modify for your mysql config.  
@@ -194,6 +194,36 @@ Start user-local mysql http service
 	$ cd db
 	$ mkdir logs
 	$ ./db_run.sh
+
+Install redis server
+
+	$ cd
+	$ wget http://redis.googlecode.com/files/redis-2.6.9.tar.gz
+	$ tar xzf redis-2.6.9.tar.gz
+	$ cd redis-2.6.9
+	$ make
+	$ sudo cp redis-benchmark redis-cli redis-server /usr/bin/
+	$ sudo cp redis.conf /etc/
+	$ redis-server /etc/redis.conf 
+
+Configure redis of the id service
+
+	$ cd cross_idc_account_serv/user_api_local_cn_serv
+	$ vim conf/id.conf
+
+Find the redis conf following, and then modify for your redis config.
+
+	location /redis/id/get{
+		set_unescape_uri $key $arg_key;
+		redis2_query get $key;
+		redis2_pass 10.100.15.7:6379;
+	}
+	location /redis/id/set{
+		set_unescape_uri $key $arg_key;
+		set_unescape_uri $val $arg_val;
+		redis2_query set $key $val;
+		redis2_pass 10.100.15.7:6379;
+	}
 
 Start user-local service
 
